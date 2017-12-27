@@ -1,5 +1,6 @@
 #include <sstream>
 #include <iterator>
+#include <ctime>
 #include <iomanip>
 
 #include "../h/validator.h"
