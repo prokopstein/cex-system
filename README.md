@@ -2,14 +2,14 @@ Prerequisites:
 --------------
 
 Linux, Mac OS:
-GCC Compiler (4.8.1 or above, should support C++11)
+GCC Compiler version 5 or higher
 
 Windows:
-MinGW Compiler (4.8.1 or above, should support C++11)
+MinGW Compiler (GCC 5 or higher)
 
 Compile:
 --------
-g++ -std=c++11 -o cex cex.cpp cpp/exchange.cpp cpp/validator.cpp
+g++ -o cex cex.cpp cpp/exchange.cpp cpp/validator.cpp
 
 Run:
 ----
