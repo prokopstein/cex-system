@@ -9,7 +9,7 @@ MinGW Compiler (GCC 5 or higher)
 
 Compile:
 --------
-g++ -o cex cex.cpp cpp/exchange.cpp cpp/validator.cpp
+g++ -std=c++11 -o cex cex.cpp cpp/exchange.cpp cpp/validator.cpp
 
 Run:
 ----
